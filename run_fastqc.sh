@@ -9,7 +9,7 @@
 #SBATCH --mem=16G                       # Total memory per job
 
 # Create an output directory for FastQC results if it doesn't exist
-mkdir -p /data/users/sschaerer/fastqc_results
+mkdir -p /data/users/sschaerer/rnaseq_course/fastqc_results
 
 # Define a function to run FastQC on a single file
 # $1 refers to the first argument passed to the function when called
@@ -18,10 +18,10 @@ run_fastqc() {
     # Print a message to track the file being processed
     echo "Running FastQC on $file" 
     apptainer exec --bind /data/courses/rnaseq_course/toxoplasma_de/reads:/data/courses/rnaseq_course/toxoplasma_de/reads \
-        /containers/apptainer/fastqc-0.12.1.sif fastqc -o /data/users/sschaerer/fastqc_results "$file"
+        /containers/apptainer/fastqc-0.12.1.sif fastqc -o /data/users/sschaerer/rnaseq_course/fastqc_results "$file"
 }
-# decided to ttsor ethe fastqc results outside of the repository directory since the amount of data blocks the git commit 
-# The --bind option explicitly maps the reads directory to ensure the container can access it
+
+# --bind : explicitly maps the reads directory to ensure the container can access it
 
 # Export the function to make it accessible to GNU Parallel
 export -f run_fastqc
