@@ -28,3 +28,4 @@ export -f run_fastqc
 
 # Find all fastq.gz files and run FastQC in parallel
 find /data/courses/rnaseq_course/toxoplasma_de/reads/*.fastq.gz | parallel -j 4 run_fastqc
+
