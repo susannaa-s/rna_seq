@@ -128,5 +128,8 @@ A detailed look at those results can be found in the report and will not be disc
 
 # END OF THE CLUSTER PART # 
 
-At this point we have generated all the necessary files to collect for rither analysis. This will be done on the local machine using R. 
+At this point we have generated all the necessary files to collect for rither analysis. This will be done on the local machine using R.
+
+to follow these steps please refer to the README_R.md file in the corresponding directory R_Analysis
+
 
