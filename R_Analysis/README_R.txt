@@ -6,6 +6,10 @@ For detailed explanations of each step, please refer to the comments in the corr
 
 ---
 
+Before anything please unzipp the following zipped files in the directory. (zipping was done due to size limit on github) 
+- featureCounts_counts.txt.zip 
+- remormatted_counts.txt.zip
+
 Step 1: Reformatting the featureCounts_counts.txt File
 Objective:
 Prepare the featureCounts_counts.txt file to match the input structure expected by DESeq2.
