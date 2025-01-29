@@ -1,0 +1,9 @@
+
+  /// MultiQC 🔍 | v1.19
+
+|           multiqc | Search path : /data/users/sschaerer/rnaseq_course_files/fastqc_fastp_results
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 64/64  
+|            fastqc | Found 32 reports
+|           multiqc | Report      : ../rnaseq_course_files/multiqc_fastp_results/multiqc_report.html
+|           multiqc | Data        : ../rnaseq_course_files/multiqc_fastp_results/multiqc_data
+|           multiqc | MultiQC complete

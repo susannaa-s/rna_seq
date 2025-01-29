@@ -1,0 +1,118 @@
+WARNING: Skipping mount /var/lib/apptainer/mnt/session/etc/resolv.conf [files]: /etc/resolv.conf doesn't exist in container
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 9 BAM files                                      ||
+||                           o SRR7821920_sorted.bam                          ||
+||                           o SRR7821938_sorted.bam                          ||
+||                           o SRR7821922_sorted.bam                          ||
+||                           o SRR7821939_sorted.bam                          ||
+||                           o SRR7821918_sorted.bam                          ||
+||                           o SRR7821949_sorted.bam                          ||
+||                           o SRR7821919_sorted.bam                          ||
+||                           o SRR7821937_sorted.bam                          ||
+||                           o SRR7821921_sorted.bam                          ||
+||                                                                            ||
+||             Output file : featureCounts_counts.txt                         ||
+||                 Summary : featureCounts_counts.txt.summary                 ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf.gz (GTF)             ||
+||      Dir for temp files : /data/users/sschaerer/rnaseq_course_files        ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf.gz ...                    ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process BAM file SRR7821920_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 46495005                                             ||
+||    Successfully assigned alignments : 29592259 (63.6%)                     ||
+||    Running time : 1.40 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821938_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 44652254                                             ||
+||    Successfully assigned alignments : 34787856 (77.9%)                     ||
+||    Running time : 0.62 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821922_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 42614161                                             ||
+||    Successfully assigned alignments : 30206236 (70.9%)                     ||
+||    Running time : 0.56 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821939_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 52525047                                             ||
+||    Successfully assigned alignments : 37723694 (71.8%)                     ||
+||    Running time : 0.94 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821918_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 40732185                                             ||
+||    Successfully assigned alignments : 29674798 (72.9%)                     ||
+||    Running time : 0.54 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821949_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34297088                                             ||
+||    Successfully assigned alignments : 22473878 (65.5%)                     ||
+||    Running time : 0.41 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821919_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 40801919                                             ||
+||    Successfully assigned alignments : 29285164 (71.8%)                     ||
+||    Running time : 0.47 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821937_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 50245417                                             ||
+||    Successfully assigned alignments : 36365446 (72.4%)                     ||
+||    Running time : 0.81 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7821921_sorted.bam...                                  ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45672357                                             ||
+||    Successfully assigned alignments : 32659529 (71.5%)                     ||
+||    Running time : 0.82 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data/users/sschaerer/r  ||
+|| naseq_course_files/featureCounts_counts.txt.summary"                       ||
+||                                                                            ||
+\\============================================================================//
+

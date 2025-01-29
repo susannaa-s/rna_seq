@@ -1,0 +1,12 @@
+
+  /// MultiQC 🔍 | v1.19
+
+|           multiqc | Search path : /data/users/sschaerer/rnaseq_course_files
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 288/288  
+|    feature_counts | Found 16 reports
+|             fastp | Found 32 reports
+|            fastqc | Found 64 reports
+|           multiqc | Existing reports found, adding suffix to filenames. Use '--force' to overwrite.
+|           multiqc | Report      : ../rnaseq_course_files/fc_multiQC_results/multiqc_report_1.html
+|           multiqc | Data        : ../rnaseq_course_files/fc_multiQC_results/multiqc_data_1
+|           multiqc | MultiQC complete

@@ -1,26 +1,29 @@
 #!/bin/bash
-#SBATCH --job-name=run_multiqc
-#SBATCH --partition=pibu_el8
-#SBATCH --output=multiqc_%j.out
-#SBATCH --error=multiqc_%j.err
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH --time=01:00:00
-#SBATCH --mem=8G
+#SBATCH --job-name=run_multiqc          # Job name
+#SBATCH --partition=pibu_el8            # Partition where the job will run
+#SBATCH --output=multiqc_%j.out         # Output log file (%j inserts job ID)
+#SBATCH --error=multiqc_%j.err          # Error log file
+#SBATCH --ntasks=1                      # Number of tasks (one task for this job)
+#SBATCH --cpus-per-task=4               # Number of CPU cores allocated
+#SBATCH --time=01:00:00                 # Maximum runtime for the job
+#SBATCH --mem=16G                       # Total memory allocated for the job
 
-# directory with the fastqc files 
-fastqc_results_dir="/data/users/${USER}/fastqc_results"
-# directory to store the multiqc resulting files in 
-multiqc_output_dir="/data/users/${USER}/multiqc_results"
+# To make this script general and reusable, input and output directory paths are specified as $1 (input) and $2 (output).
+INPUT_DIR=$1
+OUTPUT_DIR=$2
 
-# creating said dierectory if necessary 
-mkdir -p "$multiqc_output_dir"
+# if non-existent, create an output directory
+mkdir -p "$OUTPUT_DIR"
 
-# we load the module if avaliable direcctly, otherwise we use the one avaliable in the appatainer container 
-if module avail multiqc 2>/dev/null; then
-    module load multiqc
-    multiqc -o "$multiqc_output_dir" "$fastqc_results_dir"
-else
-    apptainer exec /data/users/${USER}/containers/multiqc-1.12.sif \
-        multiqc -o "$multiqc_output_dir" "$fastqc_results_dir"
-fi
+# Path to the MultiQC container
+MULTIQC_CONTAINER="/containers/apptainer/multiqc-1.19.sif"
+
+# Run MultiQC using the specified container
+echo "Running MultiQC on files in $INPUT_DIR..."
+apptainer exec --bind "$INPUT_DIR":"$INPUT_DIR","$OUTPUT_DIR":"$OUTPUT_DIR" \ # Map input and output directories into the container
+    "$MULTIQC_CONTAINER" multiqc \                                           # Run MultiQC inside the container
+    "$INPUT_DIR" -o "$OUTPUT_DIR"                                            # Specify the input directory and output directory for MultiQC
+
+# Running MultiQC is a relatively quick process, so it was not necessary to define a function or run multiple instances in parallel with GNU Parallel.
+
+

@@ -1,0 +1,7 @@
+Running MultiQC on files in /data/users/sschaerer/rnaseq_course_files...
+MultiQC output directory contents:
+multiqc_data
+multiqc_data_1
+multiqc_report_1.html
+multiqc_report.html
+MultiQC completed successfully!

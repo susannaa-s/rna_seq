@@ -1,0 +1,965 @@
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 36285942
+total bases: 2757731592
+Q20 bases: 2721622806(98.6906%)
+Q30 bases: 2650572822(96.1142%)
+
+Read1 after filtering:
+total reads: 36278251
+total bases: 2757147076
+Q20 bases: 2721295628(98.6997%)
+Q30 bases: 2650372574(96.1274%)
+
+Filtering result:
+reads passed filter: 36278251
+reads failed due to low quality: 7646
+reads failed due to too many N: 45
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 59.0185%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821919_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_1_fastp.json 
+fastp v0.23.2, time used: 242 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 36285942
+total bases: 2757731592
+Q20 bases: 2639914974(95.7278%)
+Q30 bases: 2472808842(89.6682%)
+
+Read1 after filtering:
+total reads: 35710562
+total bases: 2713319167
+Q20 bases: 2616618181(96.4361%)
+Q30 bases: 2460747710(90.6914%)
+
+Filtering result:
+reads passed filter: 35710562
+reads failed due to low quality: 546081
+reads failed due to too many N: 2397
+reads failed due to too short: 26902
+reads with adapter trimmed: 135079
+bases trimmed due to adapters: 2582499
+
+Duplication rate (may be overestimated since this is SE data): 49.9465%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821919_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821919_2_fastp.json 
+fastp v0.23.2, time used: 244 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 36220112
+total bases: 2752728512
+Q20 bases: 2717350303(98.7148%)
+Q30 bases: 2647846522(96.1899%)
+
+Read1 after filtering:
+total reads: 36211851
+total bases: 2752100676
+Q20 bases: 2716998857(98.7245%)
+Q30 bases: 2647632413(96.2041%)
+
+Filtering result:
+reads passed filter: 36211851
+reads failed due to low quality: 8203
+reads failed due to too many N: 58
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 60.9694%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821918_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_1_fastp.json 
+fastp v0.23.2, time used: 254 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 36220112
+total bases: 2752728512
+Q20 bases: 2646320910(96.1345%)
+Q30 bases: 2491768832(90.52%)
+
+Read1 after filtering:
+total reads: 35718505
+total bases: 2713915547
+Q20 bases: 2625718326(96.7502%)
+Q30 bases: 2480843421(91.412%)
+
+Filtering result:
+reads passed filter: 35718505
+reads failed due to low quality: 469604
+reads failed due to too many N: 2588
+reads failed due to too short: 29415
+reads with adapter trimmed: 138813
+bases trimmed due to adapters: 2754726
+
+Duplication rate (may be overestimated since this is SE data): 52.0479%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821918_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821918_2_fastp.json 
+fastp v0.23.2, time used: 261 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 39982873
+total bases: 3038698348
+Q20 bases: 2998380518(98.6732%)
+Q30 bases: 2919403376(96.0741%)
+
+Read1 after filtering:
+total reads: 39973264
+total bases: 3037968064
+Q20 bases: 2997972176(98.6835%)
+Q30 bases: 2919154327(96.089%)
+
+Filtering result:
+reads passed filter: 39973264
+reads failed due to low quality: 9549
+reads failed due to too many N: 60
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 63.4024%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821920_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_1_fastp.json 
+fastp v0.23.2, time used: 212 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 40592768
+total bases: 3085050368
+Q20 bases: 3043538421(98.6544%)
+Q30 bases: 2962959857(96.0425%)
+
+Read1 after filtering:
+total reads: 40583029
+total bases: 3084310204
+Q20 bases: 3043123876(98.6647%)
+Q30 bases: 2962706129(96.0573%)
+
+Filtering result:
+reads passed filter: 40583029
+reads failed due to low quality: 9681
+reads failed due to too many N: 58
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 59.2101%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821921_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_1_fastp.json 
+fastp v0.23.2, time used: 243 seconds
+Detecting adapter sequence for read1...
+AACCTCACCCGGCCCGGACACGGACAGGATTGACAGATTGATAGCTCTTTCTCGATTCCG
+
+Read1 before filtering:
+total reads: 39982873
+total bases: 3038698348
+Q20 bases: 2908010453(95.6992%)
+Q30 bases: 2721114825(89.5487%)
+
+Read1 after filtering:
+total reads: 38952780
+total bases: 2959739829
+Q20 bases: 2853383022(96.4065%)
+Q30 bases: 2681216457(90.5896%)
+
+Filtering result:
+reads passed filter: 38952780
+reads failed due to low quality: 589894
+reads failed due to too many N: 2527
+reads failed due to too short: 437672
+reads with adapter trimmed: 521810
+bases trimmed due to adapters: 26402831
+
+Duplication rate (may be overestimated since this is SE data): 54.7142%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821920_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821920_2_fastp.json 
+fastp v0.23.2, time used: 287 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 40592768
+total bases: 3085050368
+Q20 bases: 2951577916(95.6736%)
+Q30 bases: 2764616314(89.6133%)
+
+Read1 after filtering:
+total reads: 39917159
+total bases: 3032945305
+Q20 bases: 2924157016(96.4131%)
+Q30 bases: 2750275912(90.68%)
+
+Filtering result:
+reads passed filter: 39917159
+reads failed due to low quality: 639044
+reads failed due to too many N: 2553
+reads failed due to too short: 34012
+reads with adapter trimmed: 154094
+bases trimmed due to adapters: 3152060
+
+Duplication rate (may be overestimated since this is SE data): 50.1917%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821921_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821921_2_fastp.json 
+fastp v0.23.2, time used: 299 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 37737087
+total bases: 2868018612
+Q20 bases: 2830108893(98.6782%)
+Q30 bases: 2755512216(96.0772%)
+
+Read1 after filtering:
+total reads: 37729081
+total bases: 2867410156
+Q20 bases: 2829767535(98.6872%)
+Q30 bases: 2755300505(96.0902%)
+
+Filtering result:
+reads passed filter: 37729081
+reads failed due to low quality: 7949
+reads failed due to too many N: 57
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 58.2004%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821922_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_1_fastp.json 
+fastp v0.23.2, time used: 224 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 37737087
+total bases: 2868018612
+Q20 bases: 2746395541(95.7593%)
+Q30 bases: 2574413748(89.7628%)
+
+Read1 after filtering:
+total reads: 37139227
+total bases: 2821885020
+Q20 bases: 2721967263(96.4592%)
+Q30 bases: 2561537586(90.774%)
+
+Filtering result:
+reads passed filter: 37139227
+reads failed due to low quality: 562434
+reads failed due to too many N: 2286
+reads failed due to too short: 33140
+reads with adapter trimmed: 143340
+bases trimmed due to adapters: 3021358
+
+Duplication rate (may be overestimated since this is SE data): 49.2768%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821922_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821922_2_fastp.json 
+fastp v0.23.2, time used: 284 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 44881449
+total bases: 3410990124
+Q20 bases: 3368869090(98.7651%)
+Q30 bases: 3286722764(96.3569%)
+
+Read1 after filtering:
+total reads: 44872382
+total bases: 3410301032
+Q20 bases: 3368484805(98.7738%)
+Q30 bases: 3286487062(96.3694%)
+
+Filtering result:
+reads passed filter: 44872382
+reads failed due to low quality: 9067
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 61.9303%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821937_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_1_fastp.json 
+fastp v0.23.2, time used: 274 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 44881449
+total bases: 3410990124
+Q20 bases: 3277349054(96.082%)
+Q30 bases: 3079735578(90.2886%)
+
+Read1 after filtering:
+total reads: 44378100
+total bases: 3371895206
+Q20 bases: 3255154992(96.5378%)
+Q30 bases: 3066533461(90.9439%)
+
+Filtering result:
+reads passed filter: 44378100
+reads failed due to low quality: 441957
+reads failed due to too many N: 1986
+reads failed due to too short: 59406
+reads with adapter trimmed: 191620
+bases trimmed due to adapters: 5013320
+
+Duplication rate (may be overestimated since this is SE data): 54.7363%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821937_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821937_2_fastp.json 
+fastp v0.23.2, time used: 319 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 40988016
+total bases: 3115089216
+Q20 bases: 3076620258(98.7651%)
+Q30 bases: 2998762304(96.2657%)
+
+Read1 after filtering:
+total reads: 40981115
+total bases: 3114564740
+Q20 bases: 3076327839(98.7723%)
+Q30 bases: 2998581292(96.2761%)
+
+Filtering result:
+reads passed filter: 40981115
+reads failed due to low quality: 6901
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 63.6658%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821938_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_1_fastp.json 
+fastp v0.23.2, time used: 290 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 40988016
+total bases: 3115089216
+Q20 bases: 2981477570(95.7108%)
+Q30 bases: 2786949722(89.4661%)
+
+Read1 after filtering:
+total reads: 40409321
+total bases: 3070337180
+Q20 bases: 2957377435(96.3209%)
+Q30 bases: 2773464796(90.331%)
+
+Filtering result:
+reads passed filter: 40409321
+reads failed due to low quality: 521604
+reads failed due to too many N: 1705
+reads failed due to too short: 55386
+reads with adapter trimmed: 176098
+bases trimmed due to adapters: 4577072
+
+Duplication rate (may be overestimated since this is SE data): 54.9766%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821938_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821938_2_fastp.json 
+fastp v0.23.2, time used: 275 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 46697727
+total bases: 3549027252
+Q20 bases: 3505899081(98.7848%)
+Q30 bases: 3421882873(96.4175%)
+
+Read1 after filtering:
+total reads: 46687852
+total bases: 3548276752
+Q20 bases: 3505481223(98.7939%)
+Q30 bases: 3421622018(96.4305%)
+
+Filtering result:
+reads passed filter: 46687852
+reads failed due to low quality: 9875
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 61.6787%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821939_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_1_fastp.json 
+fastp v0.23.2, time used: 288 seconds
+Detecting adapter sequence for read1...
+>Nextera_LMP_Read1_External_Adapter | >Illumina Multiplexing Index Sequencing Primer
+GATCGGAAGAGCACACGTCTGAACTCCAGTCAC
+
+Read1 before filtering:
+total reads: 29659690
+total bases: 2239302751
+Q20 bases: 2213300572(98.8388%)
+Q30 bases: 2159871772(96.4529%)
+
+Read1 after filtering:
+total reads: 29505267
+total bases: 2225589573
+Q20 bases: 2200221022(98.8601%)
+Q30 bases: 2147611509(96.4963%)
+
+Filtering result:
+reads passed filter: 29505267
+reads failed due to low quality: 5085
+reads failed due to too many N: 20
+reads failed due to too short: 149318
+reads with adapter trimmed: 329459
+bases trimmed due to adapters: 7043458
+
+Duplication rate (may be overestimated since this is SE data): 73.2662%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821949_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_1_fastp.json 
+fastp v0.23.2, time used: 208 seconds
+Detecting adapter sequence for read1...
+CATCACCCCACATCTACAGACACCAAAGCCTCCAACCTCTACCATGAAGATCGCCATCAC
+
+Read1 before filtering:
+total reads: 46697727
+total bases: 3549027252
+Q20 bases: 3417961769(96.307%)
+Q30 bases: 3220829618(90.7525%)
+
+Read1 after filtering:
+total reads: 46210859
+total bases: 3511172864
+Q20 bases: 3395728034(96.7121%)
+Q30 bases: 3206912685(91.3345%)
+
+Filtering result:
+reads passed filter: 46210859
+reads failed due to low quality: 407357
+reads failed due to too many N: 2182
+reads failed due to too short: 77329
+reads with adapter trimmed: 211175
+bases trimmed due to adapters: 6309201
+
+Duplication rate (may be overestimated since this is SE data): 55.1809%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821939_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821939_2_fastp.json 
+fastp v0.23.2, time used: 347 seconds
+Detecting adapter sequence for read1...
+>Nextera_LMP_Read2_External_Adapter
+GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 29659690
+total bases: 2239175535
+Q20 bases: 2163227587(96.6082%)
+Q30 bases: 2051168869(91.6038%)
+
+Read1 after filtering:
+total reads: 29188646
+total bases: 2201426046
+Q20 bases: 2138523830(97.1427%)
+Q30 bases: 2033820122(92.3865%)
+
+Filtering result:
+reads passed filter: 29188646
+reads failed due to low quality: 321231
+reads failed due to too many N: 0
+reads failed due to too short: 149813
+reads with adapter trimmed: 339305
+bases trimmed due to adapters: 7023854
+
+Duplication rate (may be overestimated since this is SE data): 62.2529%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821949_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821949_2_fastp.json 
+fastp v0.23.2, time used: 206 seconds
+Detecting adapter sequence for read1...
+GTTCCCTTGGCTGTGGTTTCGCTGGATAGTAGGTAGGGACAGTGGGAATCTCGTTCATCC
+
+Read1 before filtering:
+total reads: 22228490
+total bases: 1678130351
+Q20 bases: 1658688065(98.8414%)
+Q30 bases: 1618489005(96.446%)
+
+Read1 after filtering:
+total reads: 22219621
+total bases: 1676862680
+Q20 bases: 1657553921(98.8485%)
+Q30 bases: 1617443400(96.4565%)
+
+Filtering result:
+reads passed filter: 22219621
+reads failed due to low quality: 3538
+reads failed due to too many N: 16
+reads failed due to too short: 5315
+reads with adapter trimmed: 51793
+bases trimmed due to adapters: 970843
+
+Duplication rate (may be overestimated since this is SE data): 71.6966%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821950_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_1_fastp.json 
+fastp v0.23.2, time used: 173 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 22228490
+total bases: 1678046868
+Q20 bases: 1615333791(96.2627%)
+Q30 bases: 1523991089(90.8193%)
+
+Read1 after filtering:
+total reads: 21960195
+total bases: 1657774233
+Q20 bases: 1605358043(96.8382%)
+Q30 bases: 1519221766(91.6423%)
+
+Filtering result:
+reads passed filter: 21960195
+reads failed due to low quality: 268295
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 59.3942%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821950_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821950_2_fastp.json 
+fastp v0.23.2, time used: 148 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 22952527
+total bases: 1732843143
+Q20 bases: 1713034946(98.8569%)
+Q30 bases: 1672387127(96.5112%)
+
+Read1 after filtering:
+total reads: 22948627
+total bases: 1732548407
+Q20 bases: 1712870704(98.8642%)
+Q30 bases: 1672286377(96.5218%)
+
+Filtering result:
+reads passed filter: 22948627
+reads failed due to low quality: 3885
+reads failed due to too many N: 15
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 67.3128%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821952_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_1_fastp.json 
+fastp v0.23.2, time used: 155 seconds
+Detecting adapter sequence for read1...
+GCTGATTCCGCCAAGCCCGTTCCCTTGGCTGTGGTTTCGCTGGATAGTAGGTAGGGACAG
+
+Read1 before filtering:
+total reads: 32968214
+total bases: 2488973044
+Q20 bases: 2460144801(98.8418%)
+Q30 bases: 2400832306(96.4588%)
+
+Read1 after filtering:
+total reads: 32955064
+total bases: 2486607724
+Q20 bases: 2458008517(98.8499%)
+Q30 bases: 2398859808(96.4712%)
+
+Filtering result:
+reads passed filter: 32955064
+reads failed due to low quality: 5953
+reads failed due to too many N: 26
+reads failed due to too short: 7171
+reads with adapter trimmed: 137613
+bases trimmed due to adapters: 1896694
+
+Duplication rate (may be overestimated since this is SE data): 70.2466%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821951_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_1_fastp.json 
+fastp v0.23.2, time used: 207 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 22952527
+total bases: 1732651540
+Q20 bases: 1671737236(96.4843%)
+Q30 bases: 1583497201(91.3916%)
+
+Read1 after filtering:
+total reads: 22677540
+total bases: 1711871313
+Q20 bases: 1661627077(97.065%)
+Q30 bases: 1578666844(92.2188%)
+
+Filtering result:
+reads passed filter: 22677540
+reads failed due to low quality: 274987
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 55.162%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821952_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821952_2_fastp.json 
+fastp v0.23.2, time used: 152 seconds
+Detecting adapter sequence for read1...
+CCTCACCCGGCCCGGACACGGACAGGATTGACAGATTGATAGCTCTTTCTCGATTCCGTG
+
+Read1 before filtering:
+total reads: 32968214
+total bases: 2488810093
+Q20 bases: 2399672300(96.4185%)
+Q30 bases: 2269683419(91.1955%)
+
+Read1 after filtering:
+total reads: 32529742
+total bases: 2455039259
+Q20 bases: 2380992381(96.9839%)
+Q30 bases: 2258819097(92.0075%)
+
+Filtering result:
+reads passed filter: 32529742
+reads failed due to low quality: 390612
+reads failed due to too many N: 0
+reads failed due to too short: 47860
+reads with adapter trimmed: 156051
+bases trimmed due to adapters: 4017839
+
+Duplication rate (may be overestimated since this is SE data): 58.8458%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821951_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821951_2_fastp.json 
+fastp v0.23.2, time used: 257 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 21144888
+total bases: 1596451667
+Q20 bases: 1578308138(98.8635%)
+Q30 bases: 1540914632(96.5212%)
+
+Read1 after filtering:
+total reads: 21141564
+total bases: 1596200432
+Q20 bases: 1578168343(98.8703%)
+Q30 bases: 1540828810(96.531%)
+
+Filtering result:
+reads passed filter: 21141564
+reads failed due to low quality: 3312
+reads failed due to too many N: 12
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 69.0753%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821953_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_1_fastp.json 
+fastp v0.23.2, time used: 155 seconds
+Detecting adapter sequence for read1...
+>Nextera_LMP_Read2_External_Adapter
+GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 21144888
+total bases: 1596257061
+Q20 bases: 1545493758(96.8199%)
+Q30 bases: 1469042754(92.0305%)
+
+Read1 after filtering:
+total reads: 20876052
+total bases: 1574238210
+Q20 bases: 1531404370(97.2791%)
+Q30 bases: 1459325586(92.7004%)
+
+Filtering result:
+reads passed filter: 20876052
+reads failed due to low quality: 197728
+reads failed due to too many N: 0
+reads failed due to too short: 71108
+reads with adapter trimmed: 220142
+bases trimmed due to adapters: 3985340
+
+Duplication rate (may be overestimated since this is SE data): 58.1078%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821953_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821953_2_fastp.json 
+fastp v0.23.2, time used: 155 seconds
+Detecting adapter sequence for read1...
+GCCCGTTCCCTTGGCTGTGGTTTCGCTGGATAGTAGGTAGGGACAGTGGGAATCTCGTTC
+
+Read1 before filtering:
+total reads: 30774869
+total bases: 2324527576
+Q20 bases: 2300991718(98.9875%)
+Q30 bases: 2251681173(96.8662%)
+
+Read1 after filtering:
+total reads: 30744776
+total bases: 2319699336
+Q20 bases: 2296352721(98.9935%)
+Q30 bases: 2247230488(96.8759%)
+
+Filtering result:
+reads passed filter: 30744776
+reads failed due to low quality: 4133
+reads failed due to too many N: 34
+reads failed due to too short: 25926
+reads with adapter trimmed: 198433
+bases trimmed due to adapters: 4219804
+
+Duplication rate (may be overestimated since this is SE data): 86.3147%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821968_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_1_fastp.json 
+fastp v0.23.2, time used: 194 seconds
+Detecting adapter sequence for read1...
+>Nextera_LMP_Read1_External_Adapter | >Illumina Multiplexing Index Sequencing Primer
+GATCGGAAGAGCACACGTCTGAACTCCAGTCAC
+
+Read1 before filtering:
+total reads: 18844848
+total bases: 1423036376
+Q20 bases: 1407336723(98.8967%)
+Q30 bases: 1373955287(96.551%)
+
+Read1 after filtering:
+total reads: 18475267
+total bases: 1394471534
+Q20 bases: 1379799393(98.9478%)
+Q30 bases: 1347857365(96.6572%)
+
+Filtering result:
+reads passed filter: 18475267
+reads failed due to low quality: 2297
+reads failed due to too many N: 13
+reads failed due to too short: 367271
+reads with adapter trimmed: 417085
+bases trimmed due to adapters: 22239240
+
+Duplication rate (may be overestimated since this is SE data): 84.629%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821969_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_1_fastp.json 
+fastp v0.23.2, time used: 118 seconds
+Detecting adapter sequence for read1...
+>Nextera_LMP_Read2_External_Adapter
+GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 18844848
+total bases: 1422743683
+Q20 bases: 1371846065(96.4226%)
+Q30 bases: 1296236853(91.1082%)
+
+Read1 after filtering:
+total reads: 18276856
+total bases: 1379068125
+Q20 bases: 1336549225(96.9168%)
+Q30 bases: 1266231224(91.8179%)
+
+Filtering result:
+reads passed filter: 18276856
+reads failed due to low quality: 200191
+reads failed due to too many N: 0
+reads failed due to too short: 367801
+reads with adapter trimmed: 426097
+bases trimmed due to adapters: 22263069
+
+Duplication rate (may be overestimated since this is SE data): 75.1997%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821969_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821969_2_fastp.json 
+fastp v0.23.2, time used: 156 seconds
+Detecting adapter sequence for read1...
+ACCTCACCCGGCCCGGACACGGACAGGATTGACAGATTGATAGCTCTTTCTCGATTCCGT
+
+Read1 before filtering:
+total reads: 30774869
+total bases: 2323951829
+Q20 bases: 2267641592(97.577%)
+Q30 bases: 2177550583(93.7003%)
+
+Read1 after filtering:
+total reads: 30410108
+total bases: 2296052802
+Q20 bases: 2246587703(97.8456%)
+Q30 bases: 2160403199(94.0921%)
+
+Filtering result:
+reads passed filter: 30410108
+reads failed due to low quality: 167797
+reads failed due to too many N: 0
+reads failed due to too short: 196964
+reads with adapter trimmed: 250854
+bases trimmed due to adapters: 12149972
+
+Duplication rate (may be overestimated since this is SE data): 79.8879%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821968_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821968_2_fastp.json 
+fastp v0.23.2, time used: 225 seconds
+Detecting adapter sequence for read1...
+GCCCGTTCCCTTGGCTGTGGTTTCGCTGGATAGTAGGTAGGGACAGTGGGAATCTCGTTC
+
+Read1 before filtering:
+total reads: 25454472
+total bases: 1922407844
+Q20 bases: 1902809542(98.9805%)
+Q30 bases: 1861369564(96.8249%)
+
+Read1 after filtering:
+total reads: 25414341
+total bases: 1916473415
+Q20 bases: 1897062299(98.9871%)
+Q30 bases: 1855828354(96.8356%)
+
+Filtering result:
+reads passed filter: 25414341
+reads failed due to low quality: 3767
+reads failed due to too many N: 14
+reads failed due to too short: 36350
+reads with adapter trimmed: 225877
+bases trimmed due to adapters: 5214328
+
+Duplication rate (may be overestimated since this is SE data): 86.6364%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_1_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_1_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821970_1.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_1_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_1_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_1_fastp.json 
+fastp v0.23.2, time used: 123 seconds
+Detecting adapter sequence for read1...
+CCTCACCCGGCCCGGACACGGACAGGATTGACAGATTGATAGCTCTTTCTCGATTCCGTG
+
+Read1 before filtering:
+total reads: 25454472
+total bases: 1922204765
+Q20 bases: 1877265274(97.6621%)
+Q30 bases: 1804668517(93.8853%)
+
+Read1 after filtering:
+total reads: 25118360
+total bases: 1896347506
+Q20 bases: 1857474939(97.9501%)
+Q30 bases: 1788282943(94.3014%)
+
+Filtering result:
+reads passed filter: 25118360
+reads failed due to low quality: 146076
+reads failed due to too many N: 0
+reads failed due to too short: 190036
+reads with adapter trimmed: 265721
+bases trimmed due to adapters: 13777137
+
+Duplication rate (may be overestimated since this is SE data): 80.9521%
+
+JSON report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_2_fastp.json
+HTML report: /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_2_fastp.html
+
+/usr/local/bin/fastp -i /data/courses/rnaseq_course/toxoplasma_de/reads/SRR7821970_2.fastq.gz -o /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_2_fastp.fastq.gz -h /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_2_fastp.html -j /data/users/sschaerer/rnaseq_course_files/fastp_results/SRR7821970_2_fastp.json 
+fastp v0.23.2, time used: 125 seconds
